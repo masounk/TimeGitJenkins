@@ -42,7 +42,7 @@ public class Time
 	}
 
 	public static int getTotalSeconds(String time)throws NumberFormatException, StringIndexOutOfBoundsException {
-		System.out.println("Total Seconds 1");
+		System.out.println("The Total Seconds 1");
 		int hours = getTotalHours(time);
 		System.out.println("Total Seconds 2");
 		//we will eventually multiply the hours by 3600 + the minutes by 60 + the seconds
