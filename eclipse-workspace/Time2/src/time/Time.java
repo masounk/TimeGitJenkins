@@ -47,7 +47,7 @@ public class Time
 		System.out.println("Total Seconds 2");
 		//we will eventually multiply the hours by 3600 + the minutes by 60 + the seconds
 		int minutes = getTotalMinutes (time);
-		System.out.println("Total Seconds 3");
+		System.out.println("The Total Seconds 3");
 		int seconds = getSeconds(time);
 		System.out.println("Total Seconds 4");
 		return hours * 3600 + minutes * 60 + seconds;
